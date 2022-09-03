@@ -1,0 +1,28 @@
+<html>
+
+ <body bgcolor=skyblue>
+    <marquee bgcolor="yellow" behavior="alternate">WELCOME TO MY WEB APP PAGE @NKV</marquee>
+
+
+    <center>
+
+        <h1> ACCORDING TO MODEL  PREDICTION IS :  </h1>
+
+    {%if data == 0%}
+    <h1>Iris-setosa</h1>
+    <img src='static/setosa.jpg'>
+
+    {%else%}
+    <h1>Iris-versicolor</h1>
+    <img src='static/verci.jpg'>
+
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
